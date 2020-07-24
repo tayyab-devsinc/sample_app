@@ -5,5 +5,7 @@ class ApplicationController < ActionController::Base
     ActiveSupport::Deprecation.silenced = true # to disablee deprications logs
     render html: "Hello"
   end
-  
+
+
+
 end
