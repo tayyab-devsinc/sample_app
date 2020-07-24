@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'errors_controller/error_404'
-
   get 'static_pages/home'
 
   get 'static_pages/help'
